@@ -1,11 +1,15 @@
-# Fraud_Detection
-Fraud detection for highly skewed data
+# Fraud Detection
+
+# Goal 
+We aim to explore the options when we have highly skewed dataset to prepare the model and best performance meteric to be used for evaluation and prepare a model comparison report.
+
+# Work Plan:
  1. Here will see how to deal with imbalanced dataset
- 2. What performance metric we should choose
- 3. How to deal with highly skewed dataset
+ 2. What performance metric we should choose and Why?
+ 3. How to deal with highly skewed dataset - Undersampling , Oversampling , SMOTE
  4. Perform Precision-Recall trade off
  
-Conclusion:
+# Conclusion:
 1. When we have imbalanced dataset - like this highly skewed then Oversampling and SMOTE really helps our model in terms of F1 score
 2. We should intially split our dataset and apply sampling techniques only on train set
 3. We should always test our model in original test dataset which does not have samples created by us
@@ -16,3 +20,6 @@ Conclusion:
 8. For Extra Trees 0.61 is the threshold which gives highest F1 score of 0.8524
 9. We can further play around and optimize the RandomForest Classifier/Extra Tree clasifier as both gave same results
 10 Sometimes Neural Network model does not perform well as compared to other ensemble models
+
+
+# Thank you !!
