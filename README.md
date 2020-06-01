@@ -4,10 +4,9 @@
 We aim to explore the options when we have highly skewed dataset to prepare the model and best performance meteric to be used for evaluation and prepare a model comparison report.
 
 # Work Plan:
- 1. Here will see how to deal with imbalanced dataset
+ 1. Here will see how to deal with highly imbalanced dataset
  2. What performance metric we should choose and Why?
- 3. How to deal with highly skewed dataset - Undersampling , Oversampling , SMOTE
- 4. Perform Precision-Recall trade off
+ 3. Perform Precision-Recall trade off
  
 # Conclusion:
 1. When we have imbalanced dataset - like this highly skewed then Oversampling and SMOTE really helps our model in terms of F1 score
